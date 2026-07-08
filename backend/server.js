@@ -25,7 +25,7 @@ app.get("/api/data", (req, res) => {
 
 });
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 async function startServer() {
     try {
@@ -35,8 +35,8 @@ async function startServer() {
         await loadCSV(csvPath);
 
         app.listen(PORT, () => {
-            console.log(`Server running on http://localhost:${PORT}`);
-        });
+    console.log(`Server running on port ${PORT}`);
+});
 
     } catch (err) {
 
