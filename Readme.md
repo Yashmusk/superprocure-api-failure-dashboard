@@ -204,11 +204,6 @@ This project was developed with AI assistance as part of the Vibe Engineering As
 The prompts, AI-generated suggestions, and implementation notes are documented in **AI_PROMPTS.md**.
 
 ---
-## Live Demo
-
-Frontend: https://YOUR-VERCEL-URL.vercel.app
-
-Backend API: https://superprocure-api-failure-dashboard.onrender.com
 
 GitHub Repository:
 https://github.com/Yashmusk/superprocure-api-failure-dashboard
